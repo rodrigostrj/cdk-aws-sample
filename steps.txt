@@ -9,7 +9,7 @@
    //cdk init --language LANGUAGE [TEMPLATE] 
    cdk init sample-app --language csharp
 
-- Paste code on DotnetStack.cs
+- Paste code on DotnetStack.cs (Git repository dotnet/src/Dotnet/DotnetStack.cs)
 
 - run command on dotnet folder: CDK synth   // Describe the infrastructure
 
