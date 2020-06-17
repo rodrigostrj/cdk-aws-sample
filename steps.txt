@@ -1,0 +1,25 @@
+// ## Presentation http://aws-de-marketing.s3-eu-central-1.amazonaws.com/Field%20Marketing/SummitOnline2020/demos/Demo%20-%20Live%20coding%20on%20.NET,%20containers,%20and%20the%20AWS%20CDK%20-%20Martin%20Beeby.mp4
+
+// https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html
+
+- Install CDK CLI
+  npm install -g aws-cdk
+
+- Create a application 
+   //cdk init --language LANGUAGE [TEMPLATE] 
+   cdk init sample-app --language csharp
+
+- Paste code on DotnetStack.cs
+
+- run command on dotnet folder: CDK synth   // Describe the infrastructure
+
+- access key
+// better create a profile before: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
+// Create a access key // https://youtu.be/vO88HHM9oY4?t=186 
+
+- run command on dotnet folder: cdk deploy
+  =>  Access the URL created in output
+
+
+// ##### Everything done till 9 minutes  (Create a Branch till here)
+
