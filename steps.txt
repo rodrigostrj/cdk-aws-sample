@@ -1,5 +1,9 @@
 // ## Presentation http://aws-de-marketing.s3-eu-central-1.amazonaws.com/Field%20Marketing/SummitOnline2020/demos/Demo%20-%20Live%20coding%20on%20.NET,%20containers,%20and%20the%20AWS%20CDK%20-%20Martin%20Beeby.mp4
 
+// CDK vs CloudFormation
+- https://searchaws.techtarget.com/tip/Compare-AWS-CDK-vs-CloudFormation-and-the-state-of-IaC-on-AWS
+- https://www.youtube.com/watch?v=FQVN3bqDABs
+
 // https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html
 
 - Install CDK CLI
@@ -9,7 +13,7 @@
    //cdk init --language LANGUAGE [TEMPLATE] 
    cdk init sample-app --language csharp
 
-- Paste code on DotnetStack.cs (Git repository dotnet/src/Dotnet/DotnetStack.cs)
+- Paste code on DotnetStack.cs // https://github.com/rodrigostrj/cdk-aws-sample/blob/master/dotnet/src/Dotnet/DotnetStack.cs
 
 - run command on dotnet folder: CDK synth   // Describe the infrastructure
 
